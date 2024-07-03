@@ -6,3 +6,6 @@ Esta es una pagina web desarrollada dentro del curso de programacion basica de j
 
 ## Autor
 - [Luis Castillo](https://github.com/LuisCastle08)
+
+# Insignia de Validacion Final
+![Insignia de final del proyecto](assets/Prancheta3.png)
