@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>RETO ALURA</title>
+    </head>
+    <body>
+        <header class="header">
+            <img src="./assets/Logo.png" alt="Logo Alura">
+            <img class="modoLuz" onclick="cambiarModo()" src="https://cdn-icons-png.flaticon.com/512/5262/5262027.png" alt="Modo Obscuro o Modo Luz">
+        </header>
+
+        <main>
+            <div id="form">
+                <textarea name="input" id="input" placeholder="Ingrese el texto aquí" autocomplete="off" rows="15"></textarea>
+                <span>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <p class="instrucciones">
+                        Solo letras minúsculas y sin acentos (Se removerán de manera automática)
+                    </p>
+                        
+                </span>
+
+                <div class="form-actions">
+                    <button class="btn" id="encrypter">Encriptar</button>
+                    <button class="btn" id="decrypt">Desencriptar</button>
+                </div>
+            </div>
+
+            <section id="result-encrypt">
+                <div class="banner">
+                    <img src="./assets/waiting.png" alt="Persona esperando respuesta">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+
+                <div class="with-result hide">
+                    <p id="result"></p>
+                    <button class="btn" id="copy">Copiar</button>
+                </div>
+            </section>
+            </mai>
+
+            <script src="script.js"></script>
+    </body>
+
+</html>
